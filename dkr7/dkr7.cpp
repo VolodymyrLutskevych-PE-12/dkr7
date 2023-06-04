@@ -55,6 +55,7 @@ public:
 };
 
 // Функція для визначення, чи є вектори колінеарними або ортогональними
+//
 void checkCollinearityAndOrthogonality(const Vector& v1, const Vector& v2) {
     double dotProduct = v1.dotProduct(v2);
 
